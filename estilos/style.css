@@ -85,8 +85,6 @@ input#imail, input#isenha {
     text-align: center;
 }
 
-
-
 input#imail:focus, input#isenha:focus{
     background-color: rgb(246, 234, 213);
 }
@@ -97,7 +95,7 @@ input#imail:focus, input#isenha:focus{
     background-color: wheat;
     display: block;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 10px;
     width: 19.5vw;
     height: 35px;
     padding: 5px;
