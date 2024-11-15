@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media screen and (min-width:850px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    main {
+        height: 384px;
+        width: 800px;
+        padding: 0px;
+    }
+    div.imagem {
+        background-position: right top;
+        display: inline-block;
+        width: 400px;
+        height: 384px;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-top: 0px;
+        box-shadow: 3px 0px 6px 0px #00000052;
+        transition: 0.1s;
+    }
+    div.login {
+        display: inline-block;
+        width: 405px;
+        height: 384px;
+        position: relative;
+        top: -110px;
+    }
+
+    div.login > h1 {
+        margin-bottom: 20px;
+        transition: 0.5s;
+    }
+
+    div.login > p {
+        width: 300px;
+        margin: 10px auto 0px auto;
+    }
+
+    input#imail, input#isenha {
+        width: 300px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 10px;
+        transition: 1.5s;
+    }
+
+    [type='submit'] {
+        width: 150px;
+        position: relative;
+        top: 50px;
+        transition: 2s;
+    }
+}

@@ -21,13 +21,14 @@ body {
 }
 
 main {
+    box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.542);
     box-sizing: border-box;
     width: 74.2vw;
     background-color: #392a28;
     padding: 20px;
     border-radius: 10px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -81,9 +82,11 @@ input#imail, input#isenha {
 }
 
 ::placeholder {
+    font-family: 'Courier New', Courier, monospace;
     color: #4f3935;
     text-align: center;
 }
+
 
 input#imail:focus, input#isenha:focus{
     background-color: rgb(246, 234, 213);
